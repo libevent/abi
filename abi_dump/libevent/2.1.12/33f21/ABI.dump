@@ -1,0 +1,76 @@
+$VAR1 = {
+          'ABI_DUMPER_VERSION' => '1.1',
+          'ABI_DUMP_VERSION' => '3.5',
+          'Arch' => 'x86_64',
+          'GccVersion' => '7.5.0',
+          'Headers' => {
+                         'thread.h' => 1
+                       },
+          'Language' => 'C',
+          'LibraryName' => 'libevent_pthreads-2.1.so.7.0.1',
+          'LibraryVersion' => '2.1.12',
+          'NameSpaces' => {},
+          'Needed' => {
+                        'libc.so.6' => 1,
+                        'libpthread.so.0' => 1
+                      },
+          'PublicABI' => '1',
+          'Sources' => {
+                         'evthread_pthread.c' => 1
+                       },
+          'SymbolInfo' => {
+                            '3020' => {
+                                        'Header' => 'thread.h',
+                                        'Return' => '109',
+                                        'ShortName' => 'evthread_use_pthreads',
+                                        'Source' => 'evthread_pthread.c',
+                                        'SourceLine' => '164'
+                                      }
+                          },
+          'SymbolVersion' => {},
+          'Symbols' => {
+                         'libevent_pthreads-2.1.so.7.0.1' => {
+                                                               '_fini' => 1,
+                                                               '_init' => 1,
+                                                               'evthread_use_pthreads' => 1
+                                                             }
+                       },
+          'Target' => 'unix',
+          'TypeInfo' => {
+                          '109' => {
+                                     'Name' => 'int',
+                                     'Size' => '4',
+                                     'Type' => 'Intrinsic'
+                                   }
+                        },
+          'UndefinedSymbols' => {
+                                  'libevent_pthreads-2.1.so.7.0.1' => {
+                                                                        '_ITM_deregisterTMCloneTable' => 0,
+                                                                        '_ITM_registerTMCloneTable' => 0,
+                                                                        '__cxa_finalize@GLIBC_2.2.5' => 0,
+                                                                        '__gmon_start__' => 0,
+                                                                        '__stack_chk_fail@GLIBC_2.4' => 0,
+                                                                        'event_mm_free_' => 0,
+                                                                        'event_mm_malloc_' => 0,
+                                                                        'evthread_set_condition_callbacks' => 0,
+                                                                        'evthread_set_id_callback' => 0,
+                                                                        'evthread_set_lock_callbacks' => 0,
+                                                                        'gettimeofday@GLIBC_2.2.5' => 0,
+                                                                        'pthread_cond_broadcast@GLIBC_2.3.2' => 0,
+                                                                        'pthread_cond_destroy@GLIBC_2.3.2' => 0,
+                                                                        'pthread_cond_init@GLIBC_2.3.2' => 0,
+                                                                        'pthread_cond_signal@GLIBC_2.3.2' => 0,
+                                                                        'pthread_cond_timedwait@GLIBC_2.3.2' => 0,
+                                                                        'pthread_cond_wait@GLIBC_2.3.2' => 0,
+                                                                        'pthread_mutex_destroy@GLIBC_2.2.5' => 0,
+                                                                        'pthread_mutex_init@GLIBC_2.2.5' => 0,
+                                                                        'pthread_mutex_lock@GLIBC_2.2.5' => 0,
+                                                                        'pthread_mutex_trylock@GLIBC_2.2.5' => 0,
+                                                                        'pthread_mutex_unlock@GLIBC_2.2.5' => 0,
+                                                                        'pthread_mutexattr_init@GLIBC_2.2.5' => 0,
+                                                                        'pthread_mutexattr_settype@GLIBC_2.2.5' => 0,
+                                                                        'pthread_self@GLIBC_2.2.5' => 0
+                                                                      }
+                                },
+          'WordSize' => '8'
+        };
