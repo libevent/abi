@@ -1,0 +1,316 @@
+$VAR1 = {
+          'ABIDump' => {
+                         '2.1.11' => {
+                                       '1f07b' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent_openssl-2.1.so.7.0.0',
+                                                    'Path' => 'abi_dump/libevent/2.1.11/1f07b/ABI.dump',
+                                                    'TotalSymbols' => '7',
+                                                    'TotalSymbolsFiltered' => '7',
+                                                    'Version' => '1.9'
+                                                  },
+                                       '30cc7' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent_pthreads-2.1.so.7.0.0',
+                                                    'Path' => 'abi_dump/libevent/2.1.11/30cc7/ABI.dump',
+                                                    'TotalSymbols' => '1',
+                                                    'TotalSymbolsFiltered' => '1',
+                                                    'Version' => '1.9'
+                                                  },
+                                       '3b336' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent_core-2.1.so.7.0.0',
+                                                    'Path' => 'abi_dump/libevent/2.1.11/3b336/ABI.dump',
+                                                    'TotalSymbols' => '239',
+                                                    'TotalSymbolsFiltered' => '239',
+                                                    'Version' => '1.9'
+                                                  },
+                                       'ab664' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent-2.1.so.7.0.0',
+                                                    'Path' => 'abi_dump/libevent/2.1.11/ab664/ABI.dump',
+                                                    'TotalSymbols' => '447',
+                                                    'TotalSymbolsFiltered' => '447',
+                                                    'Version' => '1.9'
+                                                  },
+                                       'c1ff3' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent_extra-2.1.so.7.0.0',
+                                                    'Path' => 'abi_dump/libevent/2.1.11/c1ff3/ABI.dump',
+                                                    'TotalSymbols' => '208',
+                                                    'TotalSymbolsFiltered' => '208',
+                                                    'Version' => '1.9'
+                                                  }
+                                     },
+                         '2.1.12' => {
+                                       '04978' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent_extra-2.1.so.7.0.1',
+                                                    'Path' => 'abi_dump/libevent/2.1.12/04978/ABI.dump',
+                                                    'TotalSymbols' => '208',
+                                                    'TotalSymbolsFiltered' => '208',
+                                                    'Version' => '1.9'
+                                                  },
+                                       '33f21' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent_pthreads-2.1.so.7.0.1',
+                                                    'Path' => 'abi_dump/libevent/2.1.12/33f21/ABI.dump',
+                                                    'TotalSymbols' => '1',
+                                                    'TotalSymbolsFiltered' => '1',
+                                                    'Version' => '1.9'
+                                                  },
+                                       '61970' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent_core-2.1.so.7.0.1',
+                                                    'Path' => 'abi_dump/libevent/2.1.12/61970/ABI.dump',
+                                                    'TotalSymbols' => '240',
+                                                    'TotalSymbolsFiltered' => '240',
+                                                    'Version' => '1.9'
+                                                  },
+                                       '797ac' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent-2.1.so.7.0.1',
+                                                    'Path' => 'abi_dump/libevent/2.1.12/797ac/ABI.dump',
+                                                    'TotalSymbols' => '448',
+                                                    'TotalSymbolsFiltered' => '448',
+                                                    'Version' => '1.9'
+                                                  },
+                                       'fa8c5' => {
+                                                    'Lang' => 'C',
+                                                    'Object' => 'lib/libevent_openssl-2.1.so.7.0.1',
+                                                    'Path' => 'abi_dump/libevent/2.1.12/fa8c5/ABI.dump',
+                                                    'TotalSymbols' => '7',
+                                                    'TotalSymbolsFiltered' => '7',
+                                                    'Version' => '1.9'
+                                                  }
+                                     },
+                         'current' => {
+                                        '23b83' => {
+                                                     'Lang' => 'C',
+                                                     'Object' => 'lib/libevent_pthreads-2.2.so.1.0.0',
+                                                     'Path' => 'abi_dump/libevent/current/23b83/ABI.dump',
+                                                     'TotalSymbols' => '2',
+                                                     'Version' => '1.9'
+                                                   },
+                                        '5a813' => {
+                                                     'Lang' => 'C',
+                                                     'Object' => 'lib/libevent-2.2.so.1.0.0',
+                                                     'Path' => 'abi_dump/libevent/current/5a813/ABI.dump',
+                                                     'TotalSymbols' => '482',
+                                                     'Version' => '1.9'
+                                                   },
+                                        '862dc' => {
+                                                     'Lang' => 'C',
+                                                     'Object' => 'lib/libevent_core-2.2.so.1.0.0',
+                                                     'Path' => 'abi_dump/libevent/current/862dc/ABI.dump',
+                                                     'TotalSymbols' => '251',
+                                                     'Version' => '1.9'
+                                                   },
+                                        '9fb81' => {
+                                                     'Lang' => 'C',
+                                                     'Object' => 'lib/libevent_extra-2.2.so.1.0.0',
+                                                     'Path' => 'abi_dump/libevent/current/9fb81/ABI.dump',
+                                                     'TotalSymbols' => '231',
+                                                     'Version' => '1.9'
+                                                   },
+                                        'e0d67' => {
+                                                     'Lang' => 'C',
+                                                     'Object' => 'lib/libevent_openssl-2.2.so.1.0.0',
+                                                     'Path' => 'abi_dump/libevent/current/e0d67/ABI.dump',
+                                                     'TotalSymbols' => '10',
+                                                     'Version' => '1.9'
+                                                   }
+                                      }
+                       },
+          'ABIReport' => {
+                           '2.1.11' => {
+                                         '2.1.12' => {
+                                                       'Added' => 2,
+                                                       'BC' => 100,
+                                                       'ChangedSoname' => 0,
+                                                       'ObjectsAdded' => 0,
+                                                       'ObjectsAddedSymbols' => 0,
+                                                       'ObjectsRemoved' => 0,
+                                                       'ObjectsRemovedSymbols' => 0,
+                                                       'Path' => 'objects_report/libevent/2.1.11/2.1.12/report.html',
+                                                       'Removed' => 0,
+                                                       'TotalObjects' => 5,
+                                                       'TotalProblems' => 0
+                                                     }
+                                       },
+                           '2.1.12' => {
+                                         'current' => {
+                                                        'Added' => 76,
+                                                        'BC' => '77.85',
+                                                        'ChangedSoname' => 5,
+                                                        'ObjectsAdded' => 0,
+                                                        'ObjectsAddedSymbols' => 0,
+                                                        'ObjectsRemoved' => 0,
+                                                        'ObjectsRemovedSymbols' => 0,
+                                                        'Path' => 'objects_report/libevent/2.1.12/current/report.html',
+                                                        'Removed' => 4,
+                                                        'TotalObjects' => 5,
+                                                        'TotalProblems' => 61
+                                                      }
+                                       }
+                         },
+          'ABIReport_D' => {
+                             '2.1.11' => {
+                                           '2.1.12' => {
+                                                         '3644d' => {
+                                                                      'Added' => 0,
+                                                                      'Affected' => 0,
+                                                                      'Object1' => 'lib/libevent_extra-2.1.so.7.0.0',
+                                                                      'Object2' => 'lib/libevent_extra-2.1.so.7.0.1',
+                                                                      'Path' => 'compat_report/libevent/2.1.11/2.1.12/3644d/abi_compat_report.html',
+                                                                      'Removed' => 0,
+                                                                      'TotalProblems' => 0
+                                                                    },
+                                                         '438a9' => {
+                                                                      'Added' => 0,
+                                                                      'Affected' => 0,
+                                                                      'Object1' => 'lib/libevent_openssl-2.1.so.7.0.0',
+                                                                      'Object2' => 'lib/libevent_openssl-2.1.so.7.0.1',
+                                                                      'Path' => 'compat_report/libevent/2.1.11/2.1.12/438a9/abi_compat_report.html',
+                                                                      'Removed' => 0,
+                                                                      'TotalProblems' => 0
+                                                                    },
+                                                         '49586' => {
+                                                                      'Added' => 1,
+                                                                      'Affected' => 0,
+                                                                      'Object1' => 'lib/libevent_core-2.1.so.7.0.0',
+                                                                      'Object2' => 'lib/libevent_core-2.1.so.7.0.1',
+                                                                      'Path' => 'compat_report/libevent/2.1.11/2.1.12/49586/abi_compat_report.html',
+                                                                      'Removed' => 0,
+                                                                      'TotalProblems' => 0
+                                                                    },
+                                                         'b0192' => {
+                                                                      'Added' => 0,
+                                                                      'Affected' => 0,
+                                                                      'Object1' => 'lib/libevent_pthreads-2.1.so.7.0.0',
+                                                                      'Object2' => 'lib/libevent_pthreads-2.1.so.7.0.1',
+                                                                      'Path' => 'compat_report/libevent/2.1.11/2.1.12/b0192/abi_compat_report.html',
+                                                                      'Removed' => 0,
+                                                                      'TotalProblems' => 0
+                                                                    },
+                                                         'ed15c' => {
+                                                                      'Added' => 1,
+                                                                      'Affected' => 0,
+                                                                      'Object1' => 'lib/libevent-2.1.so.7.0.0',
+                                                                      'Object2' => 'lib/libevent-2.1.so.7.0.1',
+                                                                      'Path' => 'compat_report/libevent/2.1.11/2.1.12/ed15c/abi_compat_report.html',
+                                                                      'Removed' => 0,
+                                                                      'TotalProblems' => 0
+                                                                    }
+                                                       }
+                                         },
+                             '2.1.12' => {
+                                           'current' => {
+                                                          '2148e' => {
+                                                                       'Added' => 25,
+                                                                       'Affected' => '1.9',
+                                                                       'Object1' => 'lib/libevent_extra-2.1.so.7.0.1',
+                                                                       'Object2' => 'lib/libevent_extra-2.2.so.1.0.0',
+                                                                       'Path' => 'compat_report/libevent/2.1.12/current/2148e/abi_compat_report.html',
+                                                                       'Removed' => 2,
+                                                                       'TotalProblems' => 14
+                                                                     },
+                                                          '49936' => {
+                                                                       'Added' => 1,
+                                                                       'Affected' => 0,
+                                                                       'Object1' => 'lib/libevent_pthreads-2.1.so.7.0.1',
+                                                                       'Object2' => 'lib/libevent_pthreads-2.2.so.1.0.0',
+                                                                       'Path' => 'compat_report/libevent/2.1.12/current/49936/abi_compat_report.html',
+                                                                       'Removed' => 0,
+                                                                       'TotalProblems' => 0
+                                                                     },
+                                                          'cbd37' => {
+                                                                       'Added' => 36,
+                                                                       'Affected' => '25.3',
+                                                                       'Object1' => 'lib/libevent-2.1.so.7.0.1',
+                                                                       'Object2' => 'lib/libevent-2.2.so.1.0.0',
+                                                                       'Path' => 'compat_report/libevent/2.1.12/current/cbd37/abi_compat_report.html',
+                                                                       'Removed' => 2,
+                                                                       'TotalProblems' => 21
+                                                                     },
+                                                          'e2204' => {
+                                                                       'Added' => 3,
+                                                                       'Affected' => 50,
+                                                                       'Object1' => 'lib/libevent_openssl-2.1.so.7.0.1',
+                                                                       'Object2' => 'lib/libevent_openssl-2.2.so.1.0.0',
+                                                                       'Path' => 'compat_report/libevent/2.1.12/current/e2204/abi_compat_report.html',
+                                                                       'Removed' => 0,
+                                                                       'TotalProblems' => 10
+                                                                     },
+                                                          'f7f2b' => {
+                                                                       'Added' => 11,
+                                                                       'Affected' => '33.1',
+                                                                       'Object1' => 'lib/libevent_core-2.1.so.7.0.1',
+                                                                       'Object2' => 'lib/libevent_core-2.2.so.1.0.0',
+                                                                       'Path' => 'compat_report/libevent/2.1.12/current/f7f2b/abi_compat_report.html',
+                                                                       'Removed' => 0,
+                                                                       'TotalProblems' => 16
+                                                                     }
+                                                        }
+                                         }
+                           },
+          'ABIView' => {},
+          'ABIView_D' => {},
+          'Changelog' => {
+                           '2.1.11' => 'changelog/libevent/2.1.11/log.html',
+                           '2.1.12' => 'changelog/libevent/2.1.12/log.html',
+                           'current' => 'changelog/libevent/current/log.html'
+                         },
+          'Date' => {
+                      '2.1.11' => '2019-08-01 21:37',
+                      '2.1.12' => '2020-07-05 12:02',
+                      'current' => '2023-03-17 19:53:50'
+                    },
+          'HeadersDiff' => {
+                             '2.1.11' => {
+                                           '2.1.12' => {
+                                                         'Path' => 'headers_diff/libevent/2.1.11/2.1.12/diff.html',
+                                                         'Total' => 3
+                                                       }
+                                         },
+                             '2.1.12' => {
+                                           'current' => {
+                                                          'Path' => 'headers_diff/libevent/2.1.12/current/diff.html',
+                                                          'Total' => 24
+                                                        }
+                                         }
+                           },
+          'Maintainer' => 'Nick Mathewson, Azat Khuzhin and Niels Provos',
+          'MaintainerUrl' => 'https://libevent.org',
+          'PackageDiff' => {},
+          'ScmUpdateTime' => '1680063923',
+          'Soname' => {
+                        '2.1.11' => {
+                                      'lib/libevent-2.1.so.7.0.0' => 'libevent-2.1.so.7',
+                                      'lib/libevent_core-2.1.so.7.0.0' => 'libevent_core-2.1.so.7',
+                                      'lib/libevent_extra-2.1.so.7.0.0' => 'libevent_extra-2.1.so.7',
+                                      'lib/libevent_openssl-2.1.so.7.0.0' => 'libevent_openssl-2.1.so.7',
+                                      'lib/libevent_pthreads-2.1.so.7.0.0' => 'libevent_pthreads-2.1.so.7'
+                                    },
+                        '2.1.12' => {
+                                      'lib/libevent-2.1.so.7.0.1' => 'libevent-2.1.so.7',
+                                      'lib/libevent_core-2.1.so.7.0.1' => 'libevent_core-2.1.so.7',
+                                      'lib/libevent_extra-2.1.so.7.0.1' => 'libevent_extra-2.1.so.7',
+                                      'lib/libevent_openssl-2.1.so.7.0.1' => 'libevent_openssl-2.1.so.7',
+                                      'lib/libevent_pthreads-2.1.so.7.0.1' => 'libevent_pthreads-2.1.so.7'
+                                    },
+                        'current' => {
+                                       'lib/libevent-2.2.so.1.0.0' => 'libevent-2.2.so.1',
+                                       'lib/libevent_core-2.2.so.1.0.0' => 'libevent_core-2.2.so.1',
+                                       'lib/libevent_extra-2.2.so.1.0.0' => 'libevent_extra-2.2.so.1',
+                                       'lib/libevent_openssl-2.2.so.1.0.0' => 'libevent_openssl-2.2.so.1',
+                                       'lib/libevent_pthreads-2.2.so.1.0.0' => 'libevent_pthreads-2.2.so.1'
+                                     }
+                      },
+          'Sover' => {
+                       '2.1.11' => '2.1.7',
+                       '2.1.12' => '2.1.7',
+                       'current' => '2.2.1'
+                     },
+          'Title' => 'Libevent'
+        };

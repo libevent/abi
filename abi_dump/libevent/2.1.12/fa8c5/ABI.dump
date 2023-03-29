@@ -1,0 +1,1180 @@
+$VAR1 = {
+          'ABI_DUMPER_VERSION' => '1.1',
+          'ABI_DUMP_VERSION' => '3.5',
+          'Arch' => 'x86_64',
+          'GccVersion' => '7.5.0',
+          'Headers' => {
+                         'bufferevent.h' => 1,
+                         'bufferevent_ssl.h' => 1,
+                         'bufferevent_struct.h' => 1,
+                         'event_struct.h' => 1
+                       },
+          'Language' => 'C',
+          'LibraryName' => 'libevent_openssl-2.1.so.7.0.1',
+          'LibraryVersion' => '2.1.12',
+          'NameSpaces' => {},
+          'Needed' => {
+                        'libc.so.6' => 1,
+                        'libcrypto.so.1.1' => 1,
+                        'libssl.so.1.1' => 1
+                      },
+          'PublicABI' => '1',
+          'Sources' => {
+                         'bufferevent_openssl.c' => 1
+                       },
+          'SymbolInfo' => {
+                            '10244' => {
+                                         'Header' => 'bufferevent_ssl.h',
+                                         'Param' => {
+                                                      '0' => {
+                                                               'name' => 'bev',
+                                                               'type' => '2110'
+                                                             }
+                                                    },
+                                         'Return' => '109',
+                                         'ShortName' => 'bufferevent_ssl_renegotiate',
+                                         'Source' => 'bufferevent_openssl.c',
+                                         'SourceLine' => '1120'
+                                       },
+                            '6153' => {
+                                        'Header' => 'bufferevent_ssl.h',
+                                        'Param' => {
+                                                     '0' => {
+                                                              'name' => 'bev',
+                                                              'type' => '2110'
+                                                            }
+                                                   },
+                                        'Return' => '66',
+                                        'ShortName' => 'bufferevent_get_openssl_error',
+                                        'Source' => 'bufferevent_openssl.c',
+                                        'SourceLine' => '1513'
+                                      },
+                            '6403' => {
+                                        'Header' => 'bufferevent_ssl.h',
+                                        'Param' => {
+                                                     '0' => {
+                                                              'name' => 'bev',
+                                                              'type' => '2110'
+                                                            },
+                                                     '1' => {
+                                                              'name' => 'allow_dirty_shutdown',
+                                                              'type' => '109'
+                                                            }
+                                                   },
+                                        'Return' => '1',
+                                        'ShortName' => 'bufferevent_openssl_set_allow_dirty_shutdown',
+                                        'Source' => 'bufferevent_openssl.c',
+                                        'SourceLine' => '1501'
+                                      },
+                            '6643' => {
+                                        'Header' => 'bufferevent_ssl.h',
+                                        'Param' => {
+                                                     '0' => {
+                                                              'name' => 'bev',
+                                                              'type' => '2110'
+                                                            }
+                                                   },
+                                        'Return' => '109',
+                                        'ShortName' => 'bufferevent_openssl_get_allow_dirty_shutdown',
+                                        'Source' => 'bufferevent_openssl.c',
+                                        'SourceLine' => '1488'
+                                      },
+                            '6889' => {
+                                        'Header' => 'bufferevent_ssl.h',
+                                        'Param' => {
+                                                     '0' => {
+                                                              'name' => 'base',
+                                                              'type' => '3108'
+                                                            },
+                                                     '1' => {
+                                                              'name' => 'fd',
+                                                              'type' => '109'
+                                                            },
+                                                     '2' => {
+                                                              'name' => 'ssl',
+                                                              'type' => '5804'
+                                                            },
+                                                     '3' => {
+                                                              'name' => 'state',
+                                                              'type' => '3291'
+                                                            },
+                                                     '4' => {
+                                                              'name' => 'options',
+                                                              'type' => '109'
+                                                            }
+                                                   },
+                                        'Return' => '2110',
+                                        'ShortName' => 'bufferevent_openssl_socket_new',
+                                        'Source' => 'bufferevent_openssl.c',
+                                        'SourceLine' => '1441'
+                                      },
+                            '7280' => {
+                                        'Header' => 'bufferevent_ssl.h',
+                                        'Param' => {
+                                                     '0' => {
+                                                              'name' => 'base',
+                                                              'type' => '3108'
+                                                            },
+                                                     '1' => {
+                                                              'name' => 'underlying',
+                                                              'type' => '2110'
+                                                            },
+                                                     '2' => {
+                                                              'name' => 'ssl',
+                                                              'type' => '5804'
+                                                            },
+                                                     '3' => {
+                                                              'name' => 'state',
+                                                              'type' => '3291'
+                                                            },
+                                                     '4' => {
+                                                              'name' => 'options',
+                                                              'type' => '109'
+                                                            }
+                                                   },
+                                        'Return' => '2110',
+                                        'ShortName' => 'bufferevent_openssl_filter_new',
+                                        'Source' => 'bufferevent_openssl.c',
+                                        'SourceLine' => '1414'
+                                      },
+                            '8218' => {
+                                        'Header' => 'bufferevent_ssl.h',
+                                        'Param' => {
+                                                     '0' => {
+                                                              'name' => 'bufev',
+                                                              'type' => '2110'
+                                                            }
+                                                   },
+                                        'Reg' => {
+                                                   '0' => 'rdi'
+                                                 },
+                                        'Return' => '5804',
+                                        'ShortName' => 'bufferevent_openssl_get_ssl',
+                                        'Source' => 'bufferevent_openssl.c',
+                                        'SourceLine' => '1334'
+                                      }
+                          },
+          'SymbolVersion' => {},
+          'Symbols' => {
+                         'libevent_openssl-2.1.so.7.0.1' => {
+                                                              '_fini' => 1,
+                                                              '_init' => 1,
+                                                              'bufferevent_get_openssl_error' => 1,
+                                                              'bufferevent_openssl_filter_new' => 1,
+                                                              'bufferevent_openssl_get_allow_dirty_shutdown' => 1,
+                                                              'bufferevent_openssl_get_ssl' => 1,
+                                                              'bufferevent_openssl_set_allow_dirty_shutdown' => 1,
+                                                              'bufferevent_openssl_socket_new' => 1,
+                                                              'bufferevent_ops_openssl' => -72,
+                                                              'bufferevent_ssl_renegotiate' => 1
+                                                            }
+                       },
+          'Target' => 'unix',
+          'TypeInfo' => {
+                          '1' => {
+                                   'Name' => 'void',
+                                   'Type' => 'Intrinsic'
+                                 },
+                          '1088' => {
+                                      'BaseType' => '80',
+                                      'Header' => 'stdint-uintn.h',
+                                      'Line' => '24',
+                                      'Name' => 'uint8_t',
+                                      'PrivateABI' => 1,
+                                      'Size' => '1',
+                                      'Type' => 'Typedef'
+                                    },
+                          '109' => {
+                                     'Name' => 'int',
+                                     'Size' => '4',
+                                     'Type' => 'Intrinsic'
+                                   },
+                          '127' => {
+                                     'Name' => 'long',
+                                     'Size' => '8',
+                                     'Type' => 'Intrinsic'
+                                   },
+                          '145' => {
+                                     'BaseType' => '127',
+                                     'Header' => 'types.h',
+                                     'Line' => '140',
+                                     'Name' => '__off_t',
+                                     'PrivateABI' => 1,
+                                     'Size' => '8',
+                                     'Type' => 'Typedef'
+                                   },
+                          '167' => {
+                                     'BaseType' => '127',
+                                     'Header' => 'types.h',
+                                     'Line' => '148',
+                                     'Name' => '__time_t',
+                                     'PrivateABI' => 1,
+                                     'Size' => '8',
+                                     'Type' => 'Typedef'
+                                   },
+                          '178' => {
+                                     'BaseType' => '127',
+                                     'Header' => 'types.h',
+                                     'Line' => '150',
+                                     'Name' => '__suseconds_t',
+                                     'PrivateABI' => 1,
+                                     'Size' => '8',
+                                     'Type' => 'Typedef'
+                                   },
+                          '189' => {
+                                     'BaseType' => '1',
+                                     'Name' => 'void*',
+                                     'Size' => '8',
+                                     'Type' => 'Pointer'
+                                   },
+                          '2077' => {
+                                      'BaseType' => '2088',
+                                      'Header' => 'bufferevent.h',
+                                      'Line' => '135',
+                                      'Name' => 'bufferevent_data_cb',
+                                      'Size' => '8',
+                                      'Type' => 'Typedef'
+                                    },
+                          '208' => {
+                                     'Name' => 'char',
+                                     'Size' => '1',
+                                     'Type' => 'Intrinsic'
+                                   },
+                          '2088' => {
+                                      'Name' => 'void(*)(struct bufferevent*, void*)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2110'
+                                                          },
+                                                   '1' => {
+                                                            'type' => '189'
+                                                          }
+                                                 },
+                                      'Return' => '1',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '2110' => {
+                                      'BaseType' => '2116',
+                                      'Name' => 'struct bufferevent*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '2116' => {
+                                      'Header' => 'bufferevent_struct.h',
+                                      'Line' => '70',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'ev_base',
+                                                           'offset' => '0',
+                                                           'type' => '3108'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'be_ops',
+                                                           'offset' => '8',
+                                                           'type' => '3285'
+                                                         },
+                                                  '10' => {
+                                                            'name' => 'errorcb',
+                                                            'offset' => '336',
+                                                            'type' => '2321'
+                                                          },
+                                                  '11' => {
+                                                            'name' => 'cbarg',
+                                                            'offset' => '344',
+                                                            'type' => '189'
+                                                          },
+                                                  '12' => {
+                                                            'name' => 'timeout_read',
+                                                            'offset' => '352',
+                                                            'type' => '253'
+                                                          },
+                                                  '13' => {
+                                                            'name' => 'timeout_write',
+                                                            'offset' => '368',
+                                                            'type' => '253'
+                                                          },
+                                                  '14' => {
+                                                            'name' => 'enabled',
+                                                            'offset' => '384',
+                                                            'type' => '91'
+                                                          },
+                                                  '2' => {
+                                                           'name' => 'ev_read',
+                                                           'offset' => '16',
+                                                           'type' => '2737'
+                                                         },
+                                                  '3' => {
+                                                           'name' => 'ev_write',
+                                                           'offset' => '144',
+                                                           'type' => '2737'
+                                                         },
+                                                  '4' => {
+                                                           'name' => 'input',
+                                                           'offset' => '272',
+                                                           'type' => '2472'
+                                                         },
+                                                  '5' => {
+                                                           'name' => 'output',
+                                                           'offset' => '280',
+                                                           'type' => '2472'
+                                                         },
+                                                  '6' => {
+                                                           'name' => 'wm_read',
+                                                           'offset' => '288',
+                                                           'type' => '3114'
+                                                         },
+                                                  '7' => {
+                                                           'name' => 'wm_write',
+                                                           'offset' => '304',
+                                                           'type' => '3114'
+                                                         },
+                                                  '8' => {
+                                                           'name' => 'readcb',
+                                                           'offset' => '320',
+                                                           'type' => '2077'
+                                                         },
+                                                  '9' => {
+                                                           'name' => 'writecb',
+                                                           'offset' => '328',
+                                                           'type' => '2077'
+                                                         }
+                                                },
+                                      'Name' => 'struct bufferevent',
+                                      'Size' => '392',
+                                      'Type' => 'Struct'
+                                    },
+                          '215' => {
+                                     'BaseType' => '208',
+                                     'Name' => 'char const',
+                                     'Size' => '1',
+                                     'Type' => 'Const'
+                                   },
+                          '220' => {
+                                     'BaseType' => '145',
+                                     'Header' => 'types.h',
+                                     'Line' => '86',
+                                     'Name' => 'off_t',
+                                     'PrivateABI' => 1,
+                                     'Size' => '8',
+                                     'Type' => 'Typedef'
+                                   },
+                          '2321' => {
+                                      'BaseType' => '2332',
+                                      'Header' => 'bufferevent.h',
+                                      'Line' => '154',
+                                      'Name' => 'bufferevent_event_cb',
+                                      'Size' => '8',
+                                      'Type' => 'Typedef'
+                                    },
+                          '2332' => {
+                                      'Name' => 'void(*)(struct bufferevent*, short, void*)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2110'
+                                                          },
+                                                   '1' => {
+                                                            'type' => '91'
+                                                          },
+                                                   '2' => {
+                                                            'type' => '189'
+                                                          }
+                                                 },
+                                      'Return' => '1',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '2401' => {
+                                      'Header' => 'bufferevent.h',
+                                      'Line' => '598',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'BEV_NORMAL',
+                                                           'value' => '0'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'BEV_FLUSH',
+                                                           'value' => '1'
+                                                         },
+                                                  '2' => {
+                                                           'name' => 'BEV_FINISHED',
+                                                           'value' => '2'
+                                                         }
+                                                },
+                                      'Name' => 'enum bufferevent_flush_mode',
+                                      'Size' => '4',
+                                      'Type' => 'Enum'
+                                    },
+                          '242' => {
+                                     'BaseType' => '66',
+                                     'Header' => 'stddef.h',
+                                     'Line' => '216',
+                                     'Name' => 'size_t',
+                                     'PrivateABI' => 1,
+                                     'Size' => '8',
+                                     'Type' => 'Typedef'
+                                   },
+                          '2472' => {
+                                      'BaseType' => '2478',
+                                      'Name' => 'struct evbuffer*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '2478' => {
+                                      'Header' => 'buffer.h',
+                                      'Name' => 'struct evbuffer',
+                                      'Type' => 'Struct'
+                                    },
+                          '2483' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '108',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'tqe_next',
+                                                           'offset' => '0',
+                                                           'type' => '2601'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'tqe_prev',
+                                                           'offset' => '8',
+                                                           'type' => '2607'
+                                                         }
+                                                },
+                                      'Name' => 'anon-struct-event_struct.h-108',
+                                      'Size' => '16',
+                                      'Type' => 'Struct'
+                                    },
+                          '2516' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '107',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'evcb_active_next',
+                                                           'offset' => '0',
+                                                           'type' => '2483'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'evcb_flags',
+                                                           'offset' => '16',
+                                                           'type' => '91'
+                                                         },
+                                                  '2' => {
+                                                           'name' => 'evcb_pri',
+                                                           'offset' => '18',
+                                                           'type' => '1088'
+                                                         },
+                                                  '3' => {
+                                                           'name' => 'evcb_closure',
+                                                           'offset' => '19',
+                                                           'type' => '1088'
+                                                         },
+                                                  '4' => {
+                                                           'name' => 'evcb_cb_union',
+                                                           'offset' => '24',
+                                                           'type' => '2613'
+                                                         },
+                                                  '5' => {
+                                                           'name' => 'evcb_arg',
+                                                           'offset' => '32',
+                                                           'type' => '189'
+                                                         }
+                                                },
+                                      'Name' => 'struct event_callback',
+                                      'Size' => '40',
+                                      'Type' => 'Struct'
+                                    },
+                          '253' => {
+                                     'Header' => 'struct_timeval.h',
+                                     'Line' => '8',
+                                     'Memb' => {
+                                                 '0' => {
+                                                          'name' => 'tv_sec',
+                                                          'offset' => '0',
+                                                          'type' => '167'
+                                                        },
+                                                 '1' => {
+                                                          'name' => 'tv_usec',
+                                                          'offset' => '8',
+                                                          'type' => '178'
+                                                        }
+                                               },
+                                     'Name' => 'struct timeval',
+                                     'PrivateABI' => 1,
+                                     'Size' => '16',
+                                     'Type' => 'Struct'
+                                   },
+                          '2601' => {
+                                      'BaseType' => '2516',
+                                      'Name' => 'struct event_callback*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '2607' => {
+                                      'BaseType' => '2601',
+                                      'Name' => 'struct event_callback**',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '2613' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '113',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'evcb_callback',
+                                                           'offset' => '0',
+                                                           'type' => '2687'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'evcb_selfcb',
+                                                           'offset' => '0',
+                                                           'type' => '2709'
+                                                         },
+                                                  '2' => {
+                                                           'name' => 'evcb_evfinalize',
+                                                           'offset' => '0',
+                                                           'type' => '2846'
+                                                         },
+                                                  '3' => {
+                                                           'name' => 'evcb_cbfinalize',
+                                                           'offset' => '0',
+                                                           'type' => '2709'
+                                                         }
+                                                },
+                                      'Name' => 'anon-union-event_struct.h-113',
+                                      'Size' => '8',
+                                      'Type' => 'Union'
+                                    },
+                          '2687' => {
+                                      'Name' => 'void(*)(int, short, void*)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '109'
+                                                          },
+                                                   '1' => {
+                                                            'type' => '91'
+                                                          },
+                                                   '2' => {
+                                                            'type' => '189'
+                                                          }
+                                                 },
+                                      'Return' => '1',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '2709' => {
+                                      'Name' => 'void(*)(struct event_callback*, void*)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2601'
+                                                          },
+                                                   '1' => {
+                                                            'type' => '189'
+                                                          }
+                                                 },
+                                      'Return' => '1',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '2731' => {
+                                      'BaseType' => '2737',
+                                      'Name' => 'struct event*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '2737' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '123',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'ev_evcallback',
+                                                           'offset' => '0',
+                                                           'type' => '2516'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'ev_timeout_pos',
+                                                           'offset' => '40',
+                                                           'type' => '2891'
+                                                         },
+                                                  '2' => {
+                                                           'name' => 'ev_fd',
+                                                           'offset' => '56',
+                                                           'type' => '109'
+                                                         },
+                                                  '3' => {
+                                                           'name' => 'ev_base',
+                                                           'offset' => '64',
+                                                           'type' => '3108'
+                                                         },
+                                                  '4' => {
+                                                           'name' => 'ev_',
+                                                           'offset' => '72',
+                                                           'type' => '3072'
+                                                         },
+                                                  '5' => {
+                                                           'name' => 'ev_events',
+                                                           'offset' => '104',
+                                                           'type' => '91'
+                                                         },
+                                                  '6' => {
+                                                           'name' => 'ev_res',
+                                                           'offset' => '106',
+                                                           'type' => '91'
+                                                         },
+                                                  '7' => {
+                                                           'name' => 'ev_timeout',
+                                                           'offset' => '112',
+                                                           'type' => '253'
+                                                         }
+                                                },
+                                      'Name' => 'struct event',
+                                      'Size' => '128',
+                                      'Type' => 'Struct'
+                                    },
+                          '2846' => {
+                                      'Name' => 'void(*)(struct event*, void*)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2731'
+                                                          },
+                                                   '1' => {
+                                                            'type' => '189'
+                                                          }
+                                                 },
+                                      'Return' => '1',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '2852' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '128',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'tqe_next',
+                                                           'offset' => '0',
+                                                           'type' => '2731'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'tqe_prev',
+                                                           'offset' => '8',
+                                                           'type' => '2885'
+                                                         }
+                                                },
+                                      'Name' => 'anon-struct-event_struct.h-128',
+                                      'Size' => '16',
+                                      'Type' => 'Struct'
+                                    },
+                          '2885' => {
+                                      'BaseType' => '2731',
+                                      'Name' => 'struct event**',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '2891' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '127',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'ev_next_with_common_timeout',
+                                                           'offset' => '0',
+                                                           'type' => '2852'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'min_heap_idx',
+                                                           'offset' => '0',
+                                                           'type' => '109'
+                                                         }
+                                                },
+                                      'Name' => 'anon-union-event_struct.h-127',
+                                      'Size' => '16',
+                                      'Type' => 'Union'
+                                    },
+                          '2922' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '138',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'le_next',
+                                                           'offset' => '0',
+                                                           'type' => '2731'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'le_prev',
+                                                           'offset' => '8',
+                                                           'type' => '2885'
+                                                         }
+                                                },
+                                      'Name' => 'anon-struct-event_struct.h-138',
+                                      'Size' => '16',
+                                      'Type' => 'Struct'
+                                    },
+                          '2955' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '137',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'ev_io_next',
+                                                           'offset' => '0',
+                                                           'type' => '2922'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'ev_timeout',
+                                                           'offset' => '16',
+                                                           'type' => '253'
+                                                         }
+                                                },
+                                      'Name' => 'anon-struct-event_struct.h-137',
+                                      'Size' => '32',
+                                      'Type' => 'Struct'
+                                    },
+                          '2988' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '144',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'le_next',
+                                                           'offset' => '0',
+                                                           'type' => '2731'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'le_prev',
+                                                           'offset' => '8',
+                                                           'type' => '2885'
+                                                         }
+                                                },
+                                      'Name' => 'anon-struct-event_struct.h-144',
+                                      'Size' => '16',
+                                      'Type' => 'Struct'
+                                    },
+                          '3021' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '143',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'ev_signal_next',
+                                                           'offset' => '0',
+                                                           'type' => '2988'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'ev_ncalls',
+                                                           'offset' => '16',
+                                                           'type' => '91'
+                                                         },
+                                                  '2' => {
+                                                           'name' => 'ev_pncalls',
+                                                           'offset' => '24',
+                                                           'type' => '3066'
+                                                         }
+                                                },
+                                      'Name' => 'anon-struct-event_struct.h-143',
+                                      'Size' => '32',
+                                      'Type' => 'Struct'
+                                    },
+                          '3066' => {
+                                      'BaseType' => '91',
+                                      'Name' => 'short*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '3072' => {
+                                      'Header' => 'event_struct.h',
+                                      'Line' => '135',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'ev_io',
+                                                           'offset' => '0',
+                                                           'type' => '2955'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'ev_signal',
+                                                           'offset' => '0',
+                                                           'type' => '3021'
+                                                         }
+                                                },
+                                      'Name' => 'anon-union-event_struct.h-135',
+                                      'Size' => '32',
+                                      'Type' => 'Union'
+                                    },
+                          '3103' => {
+                                      'Header' => 'event.h',
+                                      'Name' => 'struct event_base',
+                                      'Type' => 'Struct'
+                                    },
+                          '3108' => {
+                                      'BaseType' => '3103',
+                                      'Name' => 'struct event_base*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '3114' => {
+                                      'Header' => 'bufferevent_struct.h',
+                                      'Line' => '57',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'low',
+                                                           'offset' => '0',
+                                                           'type' => '242'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'high',
+                                                           'offset' => '8',
+                                                           'type' => '242'
+                                                         }
+                                                },
+                                      'Name' => 'struct event_watermark',
+                                      'Size' => '16',
+                                      'Type' => 'Struct'
+                                    },
+                          '3151' => {
+                                      'Header' => 'bufferevent-internal.h',
+                                      'Line' => '253',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'type',
+                                                           'offset' => '0',
+                                                           'type' => '910'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'mem_offset',
+                                                           'offset' => '8',
+                                                           'type' => '220'
+                                                         },
+                                                  '2' => {
+                                                           'name' => 'enable',
+                                                           'offset' => '16',
+                                                           'type' => '4754'
+                                                         },
+                                                  '3' => {
+                                                           'name' => 'disable',
+                                                           'offset' => '24',
+                                                           'type' => '4754'
+                                                         },
+                                                  '4' => {
+                                                           'name' => 'unlink',
+                                                           'offset' => '32',
+                                                           'type' => '4771'
+                                                         },
+                                                  '5' => {
+                                                           'name' => 'destruct',
+                                                           'offset' => '40',
+                                                           'type' => '4771'
+                                                         },
+                                                  '6' => {
+                                                           'name' => 'adj_timeouts',
+                                                           'offset' => '48',
+                                                           'type' => '4792'
+                                                         },
+                                                  '7' => {
+                                                           'name' => 'flush',
+                                                           'offset' => '56',
+                                                           'type' => '4823'
+                                                         },
+                                                  '8' => {
+                                                           'name' => 'ctrl',
+                                                           'offset' => '64',
+                                                           'type' => '4860'
+                                                         }
+                                                },
+                                      'Name' => 'struct bufferevent_ops',
+                                      'PrivateABI' => 1,
+                                      'Size' => '72',
+                                      'Type' => 'Struct'
+                                    },
+                          '3280' => {
+                                      'BaseType' => '3151',
+                                      'Name' => 'struct bufferevent_ops const',
+                                      'Size' => '72',
+                                      'Type' => 'Const'
+                                    },
+                          '3285' => {
+                                      'BaseType' => '3280',
+                                      'Name' => 'struct bufferevent_ops const*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '3291' => {
+                                      'Header' => 'bufferevent_ssl.h',
+                                      'Line' => '49',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'BUFFEREVENT_SSL_OPEN',
+                                                           'value' => '0'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'BUFFEREVENT_SSL_CONNECTING',
+                                                           'value' => '1'
+                                                         },
+                                                  '2' => {
+                                                           'name' => 'BUFFEREVENT_SSL_ACCEPTING',
+                                                           'value' => '2'
+                                                         }
+                                                },
+                                      'Name' => 'enum bufferevent_ssl_state',
+                                      'Size' => '4',
+                                      'Type' => 'Enum'
+                                    },
+                          '45' => {
+                                    'Name' => 'unsigned char',
+                                    'Size' => '1',
+                                    'Type' => 'Intrinsic'
+                                  },
+                          '4658' => {
+                                      'Header' => 'bufferevent-internal.h',
+                                      'Line' => '236',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'BEV_CTRL_SET_FD',
+                                                           'value' => '0'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'BEV_CTRL_GET_FD',
+                                                           'value' => '1'
+                                                         },
+                                                  '2' => {
+                                                           'name' => 'BEV_CTRL_GET_UNDERLYING',
+                                                           'value' => '2'
+                                                         },
+                                                  '3' => {
+                                                           'name' => 'BEV_CTRL_CANCEL_ALL',
+                                                           'value' => '3'
+                                                         }
+                                                },
+                                      'Name' => 'enum bufferevent_ctrl_op',
+                                      'PrivateABI' => 1,
+                                      'Size' => '4',
+                                      'Type' => 'Enum'
+                                    },
+                          '4700' => {
+                                      'Header' => 'bufferevent-internal.h',
+                                      'Line' => '244',
+                                      'Memb' => {
+                                                  '0' => {
+                                                           'name' => 'ptr',
+                                                           'offset' => '0',
+                                                           'type' => '189'
+                                                         },
+                                                  '1' => {
+                                                           'name' => 'fd',
+                                                           'offset' => '0',
+                                                           'type' => '109'
+                                                         }
+                                                },
+                                      'Name' => 'union bufferevent_ctrl_data',
+                                      'PrivateABI' => 1,
+                                      'Size' => '8',
+                                      'Type' => 'Union'
+                                    },
+                          '4754' => {
+                                      'Name' => 'int(*)(struct bufferevent*, short)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2110'
+                                                          },
+                                                   '1' => {
+                                                            'type' => '91'
+                                                          }
+                                                 },
+                                      'Return' => '109',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '4771' => {
+                                      'Name' => 'void(*)(struct bufferevent*)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2110'
+                                                          }
+                                                 },
+                                      'Return' => '1',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '4792' => {
+                                      'Name' => 'int(*)(struct bufferevent*)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2110'
+                                                          }
+                                                 },
+                                      'Return' => '109',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '4823' => {
+                                      'Name' => 'int(*)(struct bufferevent*, short, enum bufferevent_flush_mode)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2110'
+                                                          },
+                                                   '1' => {
+                                                            'type' => '91'
+                                                          },
+                                                   '2' => {
+                                                            'type' => '2401'
+                                                          }
+                                                 },
+                                      'Return' => '109',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '4854' => {
+                                      'BaseType' => '4700',
+                                      'Name' => 'union bufferevent_ctrl_data*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '4860' => {
+                                      'Name' => 'int(*)(struct bufferevent*, enum bufferevent_ctrl_op, union bufferevent_ctrl_data*)',
+                                      'Param' => {
+                                                   '0' => {
+                                                            'type' => '2110'
+                                                          },
+                                                   '1' => {
+                                                            'type' => '4658'
+                                                          },
+                                                   '2' => {
+                                                            'type' => '4854'
+                                                          }
+                                                 },
+                                      'Return' => '109',
+                                      'Size' => '8',
+                                      'Type' => 'FuncPtr'
+                                    },
+                          '4951' => {
+                                      'BaseType' => '4962',
+                                      'Header' => 'ossl_typ.h',
+                                      'Line' => '147',
+                                      'Name' => 'SSL',
+                                      'PrivateABI' => 1,
+                                      'Type' => 'Typedef'
+                                    },
+                          '4962' => {
+                                      'Name' => 'struct ssl_st',
+                                      'PrivateABI' => 1,
+                                      'Type' => 'Struct'
+                                    },
+                          '5804' => {
+                                      'BaseType' => '4951',
+                                      'Name' => 'SSL*',
+                                      'Size' => '8',
+                                      'Type' => 'Pointer'
+                                    },
+                          '66' => {
+                                    'Name' => 'unsigned long',
+                                    'Size' => '8',
+                                    'Type' => 'Intrinsic'
+                                  },
+                          '80' => {
+                                    'BaseType' => '45',
+                                    'Header' => 'types.h',
+                                    'Line' => '37',
+                                    'Name' => '__uint8_t',
+                                    'PrivateABI' => 1,
+                                    'Size' => '1',
+                                    'Type' => 'Typedef'
+                                  },
+                          '91' => {
+                                    'Name' => 'short',
+                                    'Size' => '2',
+                                    'Type' => 'Intrinsic'
+                                  },
+                          '910' => {
+                                     'BaseType' => '215',
+                                     'Name' => 'char const*',
+                                     'Size' => '8',
+                                     'Type' => 'Pointer'
+                                   }
+                        },
+          'UndefinedSymbols' => {
+                                  'libevent_openssl-2.1.so.7.0.1' => {
+                                                                       'BIO_clear_flags@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_ctrl@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_free@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_get_data@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_get_init@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_get_shutdown@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_meth_new@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_meth_set_create@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_meth_set_ctrl@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_meth_set_destroy@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_meth_set_puts@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_meth_set_read@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_meth_set_write@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_new@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_new_socket@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_number_read@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_number_written@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_set_data@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_set_flags@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_set_init@OPENSSL_1_1_0' => 0,
+                                                                       'BIO_set_shutdown@OPENSSL_1_1_0' => 0,
+                                                                       'ERR_clear_error@OPENSSL_1_1_0' => 0,
+                                                                       'ERR_get_error@OPENSSL_1_1_0' => 0,
+                                                                       'ERR_peek_error@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_clear@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_ctrl@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_do_handshake@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_free@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_get_error@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_get_rbio@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_get_shutdown@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_get_wbio@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_pending@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_read@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_renegotiate@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_set_accept_state@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_set_bio@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_set_connect_state@OPENSSL_1_1_0' => 0,
+                                                                       'SSL_write@OPENSSL_1_1_0' => 0,
+                                                                       '_ITM_deregisterTMCloneTable' => 0,
+                                                                       '_ITM_registerTMCloneTable' => 0,
+                                                                       '__cxa_finalize@GLIBC_2.2.5' => 0,
+                                                                       '__gmon_start__' => 0,
+                                                                       '__stack_chk_fail@GLIBC_2.4' => 0,
+                                                                       'bufferevent_add_event_' => 0,
+                                                                       'bufferevent_decref_and_unlock_' => 0,
+                                                                       'bufferevent_decrement_read_buckets_' => 0,
+                                                                       'bufferevent_decrement_write_buckets_' => 0,
+                                                                       'bufferevent_enable' => 0,
+                                                                       'bufferevent_enable_locking_' => 0,
+                                                                       'bufferevent_free' => 0,
+                                                                       'bufferevent_generic_adj_existing_timeouts_' => 0,
+                                                                       'bufferevent_generic_adj_timeouts_' => 0,
+                                                                       'bufferevent_get_input' => 0,
+                                                                       'bufferevent_get_output' => 0,
+                                                                       'bufferevent_get_read_max_' => 0,
+                                                                       'bufferevent_get_write_max_' => 0,
+                                                                       'bufferevent_incref' => 0,
+                                                                       'bufferevent_incref_and_lock_' => 0,
+                                                                       'bufferevent_init_common_' => 0,
+                                                                       'bufferevent_init_generic_timeout_cbs_' => 0,
+                                                                       'bufferevent_run_eventcb_' => 0,
+                                                                       'bufferevent_run_readcb_' => 0,
+                                                                       'bufferevent_run_writecb_' => 0,
+                                                                       'bufferevent_setcb' => 0,
+                                                                       'bufferevent_setfd' => 0,
+                                                                       'bufferevent_setwatermark' => 0,
+                                                                       'bufferevent_suspend_read_' => 0,
+                                                                       'bufferevent_unsuspend_read_' => 0,
+                                                                       'evbuffer_add' => 0,
+                                                                       'evbuffer_add_cb' => 0,
+                                                                       'evbuffer_commit_space' => 0,
+                                                                       'evbuffer_drain' => 0,
+                                                                       'evbuffer_get_length' => 0,
+                                                                       'evbuffer_peek' => 0,
+                                                                       'evbuffer_remove' => 0,
+                                                                       'evbuffer_reserve_space' => 0,
+                                                                       'event_add' => 0,
+                                                                       'event_assign' => 0,
+                                                                       'event_del' => 0,
+                                                                       'event_errx' => 0,
+                                                                       'event_get_fd' => 0,
+                                                                       'event_initialized' => 0,
+                                                                       'event_mm_calloc_' => 0,
+                                                                       'event_pending' => 0,
+                                                                       'event_warnx' => 0,
+                                                                       'evthread_lock_fns_' => 0,
+                                                                       'evutil_closesocket' => 0
+                                                                     }
+                                },
+          'WordSize' => '8'
+        };

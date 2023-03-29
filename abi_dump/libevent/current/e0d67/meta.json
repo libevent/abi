@@ -1,0 +1,7 @@
+{
+  "Object": "lib/libevent_openssl-2.2.so.1.0.0",
+  "Lang": "C",
+  "TotalSymbols": "10",
+  "PublicABI": "1",
+  "Version": "1.9"
+}

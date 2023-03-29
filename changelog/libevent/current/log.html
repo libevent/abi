@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Libevent, current, changes, changelog" />
+    <meta name="description" content="Log of changes in the package" />
+    <link rel="stylesheet" type="text/css" href="../../../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/changelog.css" />
+    
+    
+    <title>
+        Libevent current: changelog
+    </title>
+    
+    </head>
+
+<body>
+<table cellpadding='0' cellspacing='0'><tr><td align='center'><h1 class='tool'><a title='ABI tracker for Libevent' href='../../../timeline/libevent/index.html' class='tool'>ABI<br/>Tracker</a></h1></td><td width='30px;'></td><td><h1>(Libevent)</h1></td></tr></table><hr/>
+<br/>
+<br/>
+<h1>Changelog from Git</h1><br/><br/>
+<div class='changelog'>
+<pre class='wrap'>commit fc568ff045e6a8956221c3f095ed8e7200fa5f74
+Author: zhenhaonong &lt;zhenhaonong@tencent.com&gt;
+Date:   2023-03-17 19:53:50 +0800
+
+    Deal with partial writes on SSL write
+    
+    SSL write may do partial writes in some cases. For example, document
+    of mbedtls_ssl_write says:
+      If the return value is non-negative but less than length, the function
+      must be called again with updated arguments: buf + ret, len - ret
+      (if ret is the return value) until it returns a value equal to the
+      last 'len' argument.
+    
+    In case of partial writes, we should continue writing the same chain of
+    buffer, not the next chain.
+
+...</pre></div>
+
+</body>
+</html>
